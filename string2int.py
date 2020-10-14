@@ -8,3 +8,8 @@ def string_to_int(txt):
                 if idx_txt > idx_num:
                     result = result + 1
     return result
+
+if __name__ == '__main__':
+    text = 'a3b2c567'
+    output = string_to_int(text)
+    print(output)
